@@ -1,0 +1,332 @@
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Padding */
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+/* Main styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.bg-primary {
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.bg-light {
+    background-color: white;
+    color: #333;
+
+}
+
+.bg-orange{
+    background-color: #f7c08a;
+    color:#2e2d34;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Utility classes */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: rgb(251, 178, 89);
+}
+
+.lead {
+    font-size: 25px;
+    padding: 30px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: rgb(255, 190, 77);
+    background-color: #000000;
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Navbar */
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: #1c1c1c;
+    color: rgb(255, 190, 77);
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+/* Home Info */
+#home-info {
+    height: 400px;
+
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg');
+    min-height: 100%;
+
+}
+
+#home-info .info-content {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    float: right;
+    background-color: #2e2d34;
+}
+
+.info-content p {
+    font-size: 20px;
+    color: white;
+}
+
+#read-more-btn {
+    margin-top: 15px;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+    text-align: center;
+}
+
+/* main-footer */
+
+#main-footer {
+    text-align: center;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+}
+
+/* ABOUT PAGE */
+
+/* about info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    
+}
+
+.semi-head-bt{
+    color: rgb(39, 41, 41);
+}
+
+#about-info{
+    background: #ddd;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #ffb158 ;
+    box-shadow: rgb(255, 0, 0);
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.l-heading {
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+
+#testimonials {
+    display: block;
+    height: 600px;
+    background: url(../img/test-bg.jpg) no-repeat 
+    center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials .testimonials img {
+    display: block;
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    
+}
+
+#testimonials .testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 300px;
+    
+}
+
+.testimonials {
+    padding:10px;
+    margin:30px;
+    opacity: 0.75;
+}
+
+
+.testimonials p{
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: center
+
+}
+
+
+
+/* contact-form */
+
+#contact-form{
+    background-color: #f3f3f3;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+    
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: rgb(255, 179, 0);
+}
+
+#message{
+    height: 200px;
+}
+
+
+/* contact info */
+#contact-info p{
+    font-size: x-large;
+}
+
