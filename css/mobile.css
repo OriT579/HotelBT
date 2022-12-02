@@ -1,0 +1,99 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul li:hover {
+    color: rgb(255, 190, 77);
+    background-color: #1f1f1f;
+}
+
+#navbar ul li a {
+    padding: 6px;
+}
+
+/* showcase */
+#showcase{
+    height: 100%;
+}
+
+#showcase .showcase-content {
+
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* home info */
+#home-info .info-img {
+    display: none;
+}
+
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+
+#home-info .info-content p {
+    font-size: 16px;
+}
+
+#home-info .info-content h2 {
+    font-size: 32px;
+}
+
+#read-more-btn {
+    font-size: 17px;
+    margin-top: 0;
+    
+}
+
+
+#about-info .info-left,
+#about-info .info-right {
+    float: none;
+    width: 100%;
+
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+#about-info .info-left p {
+    text-align: center;
+}
+
+.l-heading {
+    text-align: center;
+    line-height: 1.2;
+}
+
+#testimonials {
+    overflow: auto;
+    display: block;
+    height: 650px;
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+/* contact-page */
+
+#contact-form {
+    font-size: large;
+}
+
+
+

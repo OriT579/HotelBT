@@ -66,7 +66,7 @@ p {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
-    padding: 0 20px;
+    padding: 0 5px;
 }
 
 .text-primary {
@@ -92,7 +92,6 @@ p {
 .btn:hover {
     color: rgb(255, 190, 77);
     background-color: #000000;
-    border-color: #3b3736;
     border-style: solid;
     border-width: 1px;
 }
@@ -117,7 +116,7 @@ p {
     font-size: 20px;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -143,7 +142,7 @@ p {
 }
 
 #navbar ul li a:hover {
-    background: #1c1c1c;
+    background-color: #1f1f1f;
     color: rgb(255, 190, 77);
 }
 
@@ -236,6 +235,12 @@ h2 {
     
 }
 
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
 .semi-head-bt{
     color: rgb(39, 41, 41);
 }
@@ -249,20 +254,15 @@ h2 {
     margin: auto;
     width: 70%;
     border-radius: 15%;
-    border-style: solid;
-    border-color: #ffb158 ;
-    box-shadow: rgb(255, 0, 0);
+
 }
 
-#about-info .info-left {
-    float: left;
-    width: 50%;
-    min-height: 100%;
-}
+
 
 .l-heading {
     font-size: 40px;
     color: #fff;
+    line-height: 1.2 ;
     
 }
 
@@ -323,9 +323,13 @@ h2 {
 
 #contact-form input,
 #contact-form textarea{
-    width: 75%;
+    width:100%;
     padding: 10px;
     border: 1px #ddd solid;
+}
+
+#contact-form{
+    font-size: large;
 }
 
 #contact-form input:focus,
