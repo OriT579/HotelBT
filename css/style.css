@@ -197,9 +197,10 @@ h2 {
 
 .box {
     float: left;
-    width: 33.3%;
+    width: 33.33333333333%;
     padding: 40px;
     text-align: center;
+    border-style:inset;
 }
 
 /* main-footer */
@@ -299,7 +300,6 @@ h2 {
 
 #contact-form .form-group{
     margin-bottom: 20px;
-    
 }
 
 #contact-form label{
@@ -309,7 +309,7 @@ h2 {
 
 #contact-form input,
 #contact-form textarea{
-    width: 100%;
+    width: 75%;
     padding: 10px;
     border: 1px #ddd solid;
 }
@@ -321,10 +321,8 @@ h2 {
 }
 
 #message{
-    height: 200px;
+    height: 125px;
 }
-
-
 /* contact info */
 #contact-info p{
     font-size: x-large;
